@@ -3,8 +3,9 @@ name: dev-build-and-deploy
 # Run workflow only on push to dev branch
 on:
   push:
-    branches:
-      - dev
+    branches: main
+    
+     
 jobs:
   # To build the project
   build-tambola:
